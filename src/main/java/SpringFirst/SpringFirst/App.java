@@ -10,7 +10,6 @@ public class App {
 	Employee ee=context.getBean(Employee.class);
 		System.out.println(ee);
                                     System.out.println("running......);
-                                   System.out.println("running....Revert);
                                    
 		
 		/*
