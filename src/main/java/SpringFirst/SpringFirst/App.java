@@ -9,13 +9,8 @@ public class App {
 		ApplicationContext context=new ClassPathXmlApplicationContext("SpringFirst/SpringFirst/ContextApp.xml");
 	Employee ee=context.getBean(Employee.class);
 		System.out.println(ee);
-                                    System.out.println("running......);
                                    
-		
-		/*
-		 * Stu ss= context.getBean("ss",Stu.class); System.out.println(ss );
-		 */		
-		
+                  			
 	}
 
 } 
