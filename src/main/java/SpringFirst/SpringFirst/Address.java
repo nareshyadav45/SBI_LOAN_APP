@@ -3,6 +3,7 @@ package SpringFirst.SpringFirst;
 public class Address {
 	private String street;
 	private String city;
+                 private int id;
 	
 	public String getStreet() {
 		return street;
